@@ -4,9 +4,9 @@ import WorkItem from "../WorkItem";
 export default function Work() {
   return (
     <div className="container">
+      <h1>My Work</h1>
       <div className="row">
-        <h1>My Work</h1>
-        <div className="col-6">
+        <div className="col-12">
           <WorkItem
             title={"Test1"}
             imgSrc={"/images/test.png"}
@@ -14,7 +14,7 @@ export default function Work() {
             gitHubSrc={"https://daveceddia.com/react-image-tag/"}
           />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <WorkItem
             title={"Test1"}
             imgSrc={"/images/test.png"}
@@ -22,7 +22,7 @@ export default function Work() {
             gitHubSrc={"https://daveceddia.com/react-image-tag/"}
           />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <WorkItem
             title={"Test1"}
             imgSrc={"/images/test.png"}
@@ -30,7 +30,7 @@ export default function Work() {
             gitHubSrc={"https://daveceddia.com/react-image-tag/"}
           />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <WorkItem
             title={"Test1"}
             imgSrc={"/images/test.png"}
@@ -38,7 +38,7 @@ export default function Work() {
             gitHubSrc={"https://daveceddia.com/react-image-tag/"}
           />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <WorkItem
             title={"Test1"}
             imgSrc={"/images/test.png"}
